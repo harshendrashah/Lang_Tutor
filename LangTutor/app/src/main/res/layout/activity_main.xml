@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shah.langtutor.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tanBackground">
+
+        <TextView
+            android:id="@+id/hindi_text_view"
+            style="@style/HomePageCatagoryStyle"
+            android:background="@color/list1"
+            android:text="@string/hindi" />
+
+        <View style="@style/ViewStyle"/>
+
+        <TextView
+            android:id="@+id/gujarati_text_view"
+            style="@style/HomePageCatagoryStyle"
+            android:background="@color/list2"
+            android:text="@string/gujarati" />
+
+        <View style="@style/ViewStyle"/>
+
+        <TextView
+            android:id="@+id/marathi_text_view"
+            style="@style/HomePageCatagoryStyle"
+            android:background="@color/list3"
+            android:text="@string/marathi"/>
+
+        <View style="@style/ViewStyle"/>
+
+    </LinearLayout>
+
+</ScrollView>
