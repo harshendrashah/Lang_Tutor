@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shah.langtutor.Marathi.MarathiActivity">
+
+    <TextView
+        android:id="@+id/marathi_alphabates"
+        style="@style/IndividualCategoryStyle"
+        android:background="@color/list3"
+        android:text="@string/alphabets" />
+
+    <View style="@style/ViewStyle"/>
+
+    <TextView
+        android:id="@+id/marathi_numbers"
+        style="@style/IndividualCategoryStyle"
+        android:background="@color/list3"
+        android:text="@string/numbers" />
+
+    <View style="@style/ViewStyle"/>
+
+    <TextView
+        android:id="@+id/marathi_colors"
+        style="@style/IndividualCategoryStyle"
+        android:background="@color/list3"
+        android:text="@string/colors"/>
+
+    <View style="@style/ViewStyle"/>
+
+    <TextView
+        android:id="@+id/marathi_phrases"
+        style="@style/IndividualCategoryStyle"
+        android:background="@color/list3"
+        android:text="@string/phrases"/>
+
+    <View style="@style/ViewStyle"/>
+
+</LinearLayout>

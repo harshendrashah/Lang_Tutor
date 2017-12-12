@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tanBackground">#ECEFF1</color>
+
+    <!-- Background colors for HomePage Category list -->
+    <color name="list1">#F4511E</color>
+    <color name="list2">#AEEA00</color>
+    <color name="list3">#0288D1</color>
+</resources>

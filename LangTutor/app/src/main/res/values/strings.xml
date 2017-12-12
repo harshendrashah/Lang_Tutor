@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lang Tutor</string>
+    <string name="hindi">Hindi</string>
+    <string name="gujarati">Gujarati</string>
+    <string name="marathi">Marathi</string>
+
+    <string name="numbers">Numbers</string>
+    <string name="alphabets">Alphabets</string>
+    <string name="phrases">Phrases</string>
+    <string name="colors">Colors</string>
+</resources>
