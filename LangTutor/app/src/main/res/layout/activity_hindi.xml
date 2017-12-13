@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.shah.langtutor.HIndi.HindiActivity">
+    tools:context="com.shah.langtutor.HIndi.HindiActivity"
+    android:background="@color/tanBackground">
 
     <TextView
         android:id="@+id/hindi_alphabates"
         style="@style/IndividualCategoryStyle"
-        android:background="@color/list1"
+        android:background="@color/category_alphabets"
         android:text="@string/alphabets" />
 
     <View style="@style/ViewStyle"/>
@@ -18,7 +19,7 @@
     <TextView
         android:id="@+id/hindi_numbers"
         style="@style/IndividualCategoryStyle"
-        android:background="@color/list1"
+        android:background="@color/category_numbers"
         android:text="@string/numbers" />
 
     <View style="@style/ViewStyle"/>
@@ -26,7 +27,7 @@
     <TextView
         android:id="@+id/hindi_colors"
         style="@style/IndividualCategoryStyle"
-        android:background="@color/list1"
+        android:background="@color/category_colors"
         android:text="@string/colors"/>
 
     <View style="@style/ViewStyle"/>
@@ -34,7 +35,7 @@
     <TextView
         android:id="@+id/hindi_phrases"
         style="@style/IndividualCategoryStyle"
-        android:background="@color/list1"
+        android:background="@color/category_phrases"
         android:text="@string/phrases"/>
 
     <View style="@style/ViewStyle"/>
