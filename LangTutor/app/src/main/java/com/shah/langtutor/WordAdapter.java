@@ -9,6 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 /**
@@ -36,6 +38,9 @@ public class WordAdapter extends ArrayAdapter<Word> {
         }
 
         Word currentWord = getItem(position);
+
+        TextView languageScriptTextView = (TextView) listItemView.findViewById(R.id.language_script_text_view) ;
+        languageScriptTextView.setText(currentWord.getLanguageScript());
 
         TextView languageTextView = (TextView) listItemView.findViewById(R.id.language_text_view);
         languageTextView.setText(currentWord.getLanguageTranslation());

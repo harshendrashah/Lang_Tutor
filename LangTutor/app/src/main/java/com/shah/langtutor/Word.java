@@ -10,6 +10,9 @@ public class Word {
     //Default Translation of the word
     private String mDefaultTranslation;
 
+    //Specific Language Script of the word
+    private String mLanguageScript;
+
     //Specific Language Translation of the word
     private String mLanguageTranslation;
 
@@ -18,17 +21,24 @@ public class Word {
 
     private static int NO_IMAGE_PROVIDED = -1;
 
+    //Specific Audio Resource for the word
+    private int mAudioResourceId;
+
     //Constructor for Phrases Activity
-    public Word(String defaultTranslation, String languageTranslation){
-        mDefaultTranslation = defaultTranslation;
+    public Word(String languageScript, String languageTranslation,String defaultTranslation, int audioResourceId){
+        mLanguageScript = languageScript;
         mLanguageTranslation = languageTranslation;
+        mDefaultTranslation = defaultTranslation;
+        mAudioResourceId = audioResourceId;
     }
 
     //Constructor for Alphabets, Numbers and Colors Activity
-    public Word(String defaultTranslation, String languageTranslation, int imageResourceId){
-        mDefaultTranslation = defaultTranslation;
+    public Word(String languageScript, String languageTranslation,String defaultTranslation, int imageResourceId, int audioResourceId){
+        mLanguageScript = languageScript;
         mLanguageTranslation = languageTranslation;
+        mDefaultTranslation = defaultTranslation;
         mImageResourceId = imageResourceId;
+        mAudioResourceId = audioResourceId;
     }
 
     /**
@@ -48,6 +58,14 @@ public class Word {
     }
 
     /**
+     * Get the Language Script of the word
+     * @return
+     */
+    public String getLanguageScript(){
+        return  mLanguageScript;
+    }
+
+    /**
      * Get the Image Resource for the word
      * @return
      */
@@ -61,6 +79,14 @@ public class Word {
      */
     public boolean hasImage(){
         return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
+    /**
+     * Get the Audio Resource for the word
+     * @return
+     */
+    public int getAudioResourceId(){
+        return mAudioResourceId;
     }
 
 }

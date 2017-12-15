@@ -20,16 +20,16 @@ public class MarathiNumbersActivity extends AppCompatActivity {
         //Creating an ArrayList of words
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("One","Ēka",R.drawable.number_one));
-        words.add(new Word("Two","Dōna",R.drawable.number_two));
-        words.add(new Word("Three","Tīna",R.drawable.number_three));
-        words.add(new Word("Four","Cāra",R.drawable.number_four));
-        words.add(new Word("Five","Pāca",R.drawable.number_five));
-        words.add(new Word("Six","Sahā",R.drawable.number_six));
-        words.add(new Word("Seven","Sāta",R.drawable.number_seven));
-        words.add(new Word("Eight","Āṭha",R.drawable.number_eight));
-        words.add(new Word("Nine","Na'ū",R.drawable.number_nine));
-        words.add(new Word("Ten","Dahā",R.drawable.number_ten));
+        words.add(new Word("एक","Ēka","One",R.drawable.number_one));
+        words.add(new Word("दोन","Dōna","Two",R.drawable.number_two));
+        words.add(new Word("तीन","Tīna","Three",R.drawable.number_three));
+        words.add(new Word("चार","Cāra","Four",R.drawable.number_four));
+        words.add(new Word("पाच","Pāca","Five",R.drawable.number_five));
+        words.add(new Word("सहा","Sahā","Six",R.drawable.number_six));
+        words.add(new Word("सात","Sāta","Seven",R.drawable.number_seven));
+        words.add(new Word("आठ","Āṭha","Eight",R.drawable.number_eight));
+        words.add(new Word("नऊ","Na'ū","Nine",R.drawable.number_nine));
+        words.add(new Word("दहा","Dahā","Ten",R.drawable.number_ten));
 
         WordAdapter adapter = new WordAdapter(this,words,R.color.category_numbers);
 
