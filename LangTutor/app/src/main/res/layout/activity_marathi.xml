@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/marathi_alphabates"
         style="@style/IndividualCategoryStyle"
-        android:background="@color/list3"
+        android:background="@color/category_alphabets"
         android:text="@string/alphabets" />
 
     <View style="@style/ViewStyle"/>
@@ -18,7 +18,7 @@
     <TextView
         android:id="@+id/marathi_numbers"
         style="@style/IndividualCategoryStyle"
-        android:background="@color/list3"
+        android:background="@color/category_numbers"
         android:text="@string/numbers" />
 
     <View style="@style/ViewStyle"/>
@@ -26,7 +26,7 @@
     <TextView
         android:id="@+id/marathi_colors"
         style="@style/IndividualCategoryStyle"
-        android:background="@color/list3"
+        android:background="@color/category_colors"
         android:text="@string/colors"/>
 
     <View style="@style/ViewStyle"/>
@@ -34,7 +34,7 @@
     <TextView
         android:id="@+id/marathi_phrases"
         style="@style/IndividualCategoryStyle"
-        android:background="@color/list3"
+        android:background="@color/category_phrases"
         android:text="@string/phrases"/>
 
     <View style="@style/ViewStyle"/>

@@ -13,10 +13,22 @@ public class Word {
     //Specific Language Translation of the word
     private String mLanguageTranslation;
 
-    //Constructor
+    //Specific Image Resource for the word
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+    private static int NO_IMAGE_PROVIDED = -1;
+
+    //Constructor for Phrases Activity
     public Word(String defaultTranslation, String languageTranslation){
         mDefaultTranslation = defaultTranslation;
         mLanguageTranslation = languageTranslation;
+    }
+
+    //Constructor for Alphabets, Numbers and Colors Activity
+    public Word(String defaultTranslation, String languageTranslation, int imageResourceId){
+        mDefaultTranslation = defaultTranslation;
+        mLanguageTranslation = languageTranslation;
+        mImageResourceId = imageResourceId;
     }
 
     /**
@@ -34,4 +46,21 @@ public class Word {
     public String getLanguageTranslation(){
         return mLanguageTranslation;
     }
+
+    /**
+     * Get the Image Resource for the word
+     * @return
+     */
+    public int getImageResourseID() {
+        return mImageResourceId;
+    }
+
+    /**
+     * Returns whether or not there is an image for this word
+     * @return
+     */
+    public boolean hasImage(){
+        return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
 }

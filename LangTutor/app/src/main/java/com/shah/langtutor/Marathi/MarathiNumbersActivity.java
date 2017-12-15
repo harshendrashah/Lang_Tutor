@@ -20,18 +20,18 @@ public class MarathiNumbersActivity extends AppCompatActivity {
         //Creating an ArrayList of words
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("One","Ēka"));
-        words.add(new Word("Two","Dōna"));
-        words.add(new Word("Three","Tīna"));
-        words.add(new Word("Four","Cāra"));
-        words.add(new Word("Five","Pāca"));
-        words.add(new Word("Six","Sahā"));
-        words.add(new Word("Seven","Sāta"));
-        words.add(new Word("Eight","Āṭha"));
-        words.add(new Word("Nine","Na'ū"));
-        words.add(new Word("Ten","Dahā"));
+        words.add(new Word("One","Ēka",R.drawable.number_one));
+        words.add(new Word("Two","Dōna",R.drawable.number_two));
+        words.add(new Word("Three","Tīna",R.drawable.number_three));
+        words.add(new Word("Four","Cāra",R.drawable.number_four));
+        words.add(new Word("Five","Pāca",R.drawable.number_five));
+        words.add(new Word("Six","Sahā",R.drawable.number_six));
+        words.add(new Word("Seven","Sāta",R.drawable.number_seven));
+        words.add(new Word("Eight","Āṭha",R.drawable.number_eight));
+        words.add(new Word("Nine","Na'ū",R.drawable.number_nine));
+        words.add(new Word("Ten","Dahā",R.drawable.number_ten));
 
-        WordAdapter adapter = new WordAdapter(this,words);
+        WordAdapter adapter = new WordAdapter(this,words,R.color.category_numbers);
 
         ListView listView = (ListView)findViewById(R.id.list);
 
