@@ -1,13 +1,101 @@
 <resources>
     <string name="app_name">Lang Tutor</string>
+
+    <!--Language Names -->
     <string name="hindi">Hindi</string>
     <string name="gujarati">Gujarati</string>
     <string name="marathi">Marathi</string>
     <string name="japanese">Japanese</string>
     <string name="french">French</string>
 
+    <!--Category Names-->
     <string name="numbers">Numbers</string>
     <string name="alphabets">Alphabets</string>
     <string name="phrases">Phrases</string>
     <string name="colors">Colors</string>
+
+    <!--English Numbers-->
+    <string name="english_number_one">One</string>
+    <string name="english_number_two">Two</string>
+    <string name="english_number_three">Three</string>
+    <string name="english_number_four">Four</string>
+    <string name="english_number_five">Five</string>
+    <string name="english_number_six">Six</string>
+    <string name="english_number_seven">Seven</string>
+    <string name="english_number_eight">Eight</string>
+    <string name="english_number_nine">Nine</string>
+    <string name="english_number_ten">Ten</string>
+
+    <!--Hindi Numbers-->
+    <string name="hindi_number_one">Ek</string>
+    <string name="hindi_number_two">Do</string>
+    <string name="hindi_number_three">Teen</string>
+    <string name="hindi_number_four">Chaar</string>
+    <string name="hindi_number_five">Panj</string>
+    <string name="hindi_number_six">Chhah</string>
+    <string name="hindi_number_seven">Saat</string>
+    <string name="hindi_number_eight">Aath</string>
+    <string name="hindi_number_nine">Nau</string>
+    <string name="hindi_number_ten">Das</string>
+
+    <!--Gujarati Numbers-->
+    <string name="gujarati_number_one">Ēka</string>
+    <string name="gujarati_number_two">Bē</string>
+    <string name="gujarati_number_three">Traṇa</string>
+    <string name="gujarati_number_four">Cāra</string>
+    <string name="gujarati_number_five">Pān̄ca</string>
+    <string name="gujarati_number_six">Cha</string>
+    <string name="gujarati_number_seven">Sāta</string>
+    <string name="gujarati_number_eight">Āṭha</string>
+    <string name="gujarati_number_nine">Nava</string>
+    <string name="gujarati_number_ten">Dasa</string>
+
+    <!--Marathi Numbers-->
+    <string name="marathi_number_one">Ēka</string>
+    <string name="marathi_number_two">Dōna</string>
+    <string name="marathi_number_three">Tīna</string>
+    <string name="marathi_number_four">Cāra</string>
+    <string name="marathi_number_five">Pāca</string>
+    <string name="marathi_number_six">Sahā</string>
+    <string name="marathi_number_seven">Sāta</string>
+    <string name="marathi_number_eight">Āṭha</string>
+    <string name="marathi_number_nine">Naū</string>
+    <string name="marathi_number_ten">Dahā</string>
+
+    <!--Hindi Number Script-->
+    <string name="hindi_number_one_script">एक</string>
+    <string name="hindi_number_two_script">दो</string>
+    <string name="hindi_number_three_script">तीन</string>
+    <string name="hindi_number_four_script">चार</string>
+    <string name="hindi_number_five_script">पंज</string>
+    <string name="hindi_number_six_script">छह</string>
+    <string name="hindi_number_seven_script">सात</string>
+    <string name="hindi_number_eight_script">आठ</string>
+    <string name="hindi_number_nine_script">नौ</string>
+    <string name="hindi_number_ten_script">दस</string>
+
+    <!--Gujarati Numbers Script-->
+    <string name="gujarati_number_one_script">એક</string>
+    <string name="gujarati_number_two_script">બે</string>
+    <string name="gujarati_number_three_script">ત્રણ</string>
+    <string name="gujarati_number_four_script">ચાર</string>
+    <string name="gujarati_number_five_script">પાંચ</string>
+    <string name="gujarati_number_six_script">છ</string>
+    <string name="gujarati_number_seven_script">સાત</string>
+    <string name="gujarati_number_eight_script">આઠ</string>
+    <string name="gujarati_number_nine_script">નવ</string>
+    <string name="gujarati_number_ten_script">દસ</string>
+
+    <!--Marathi Numbers Script-->
+    <string name="marathi_number_one_script">एक</string>
+    <string name="marathi_number_two_script">दोन</string>
+    <string name="marathi_number_three_script">तीन</string>
+    <string name="marathi_number_four_script">चार</string>
+    <string name="marathi_number_five_script">पाच</string>
+    <string name="marathi_number_six_script">सहा</string>
+    <string name="marathi_number_seven_script">सात</string>
+    <string name="marathi_number_eight_script">आठ</string>
+    <string name="marathi_number_nine_script">नऊ</string>
+    <string name="marathi_number_ten_script">दहा</string>
+
 </resources>

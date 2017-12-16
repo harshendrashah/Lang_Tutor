@@ -8,13 +8,13 @@ package com.shah.langtutor;
 public class Word {
 
     //Default Translation of the word
-    private String mDefaultTranslation;
+    private int mDefaultTranslation;
 
     //Specific Language Script of the word
-    private String mLanguageScript;
+    private int mLanguageScript;
 
     //Specific Language Translation of the word
-    private String mLanguageTranslation;
+    private int mLanguageTranslation;
 
     //Specific Image Resource for the word
     private int mImageResourceId = NO_IMAGE_PROVIDED;
@@ -25,7 +25,7 @@ public class Word {
     private int mAudioResourceId;
 
     //Constructor for Phrases Activity
-    public Word(String languageScript, String languageTranslation,String defaultTranslation, int audioResourceId){
+    public Word(int languageScript, int languageTranslation,int defaultTranslation, int audioResourceId){
         mLanguageScript = languageScript;
         mLanguageTranslation = languageTranslation;
         mDefaultTranslation = defaultTranslation;
@@ -33,7 +33,7 @@ public class Word {
     }
 
     //Constructor for Alphabets, Numbers and Colors Activity
-    public Word(String languageScript, String languageTranslation,String defaultTranslation, int imageResourceId, int audioResourceId){
+    public Word(int languageScript, int languageTranslation,int defaultTranslation, int imageResourceId, int audioResourceId){
         mLanguageScript = languageScript;
         mLanguageTranslation = languageTranslation;
         mDefaultTranslation = defaultTranslation;
@@ -42,10 +42,18 @@ public class Word {
     }
 
     /**
+     * Get the Language Script of the word
+     * @return
+     */
+    public int getLanguageScript(){
+        return  mLanguageScript;
+    }
+
+    /**
      * Get the Default Translation of the word
      * @return
      */
-    public String getDefaultTranslation(){
+    public int getDefaultTranslation(){
         return mDefaultTranslation;
     }
 
@@ -53,17 +61,10 @@ public class Word {
      * Get Specific Language Translation of the word
      * @return
      */
-    public String getLanguageTranslation(){
+    public int getLanguageTranslation(){
         return mLanguageTranslation;
     }
 
-    /**
-     * Get the Language Script of the word
-     * @return
-     */
-    public String getLanguageScript(){
-        return  mLanguageScript;
-    }
 
     /**
      * Get the Image Resource for the word

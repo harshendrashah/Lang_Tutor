@@ -60,16 +60,26 @@ public class MarathiNumbersActivity extends AppCompatActivity {
         //Creating an ArrayList of words
         final ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("एक","Ēka","One",R.drawable.number_one));
-        words.add(new Word("दोन","Dōna","Two",R.drawable.number_two));
-        words.add(new Word("तीन","Tīna","Three",R.drawable.number_three));
-        words.add(new Word("चार","Cāra","Four",R.drawable.number_four));
-        words.add(new Word("पाच","Pāca","Five",R.drawable.number_five));
-        words.add(new Word("सहा","Sahā","Six",R.drawable.number_six));
-        words.add(new Word("सात","Sāta","Seven",R.drawable.number_seven));
-        words.add(new Word("आठ","Āṭha","Eight",R.drawable.number_eight));
-        words.add(new Word("नऊ","Na'ū","Nine",R.drawable.number_nine));
-        words.add(new Word("दहा","Dahā","Ten",R.drawable.number_ten));
+        words.add(new Word(R.string.marathi_number_one_script,R.string.marathi_number_one,
+                R.string.english_number_one,R.drawable.number_one));
+        words.add(new Word(R.string.marathi_number_two_script,R.string.marathi_number_two,
+                R.string.english_number_two,R.drawable.number_two));
+        words.add(new Word(R.string.marathi_number_three_script,R.string.marathi_number_three,
+                R.string.english_number_three,R.drawable.number_three));
+        words.add(new Word(R.string.marathi_number_four_script,R.string.marathi_number_four,
+                R.string.english_number_four,R.drawable.number_four));
+        words.add(new Word(R.string.marathi_number_five_script,R.string.marathi_number_five,
+                R.string.english_number_five,R.drawable.number_five));
+        words.add(new Word(R.string.marathi_number_six_script,R.string.marathi_number_six,
+                R.string.english_number_six,R.drawable.number_six));
+        words.add(new Word(R.string.marathi_number_seven_script,R.string.marathi_number_seven,
+                R.string.english_number_seven,R.drawable.number_seven));
+        words.add(new Word(R.string.marathi_number_eight_script,R.string.marathi_number_eight,
+                R.string.english_number_eight,R.drawable.number_eight));
+        words.add(new Word(R.string.marathi_number_nine_script,R.string.marathi_number_nine,
+                R.string.english_number_nine,R.drawable.number_nine));
+        words.add(new Word(R.string.marathi_number_two_script,R.string.marathi_number_ten,
+                R.string.english_number_ten,R.drawable.number_ten));
 
         WordAdapter adapter = new WordAdapter(this,words,R.color.category_numbers);
 

@@ -60,16 +60,26 @@ public class HindiNumbersActivity extends AppCompatActivity {
         //Creating an ArrayList of words
         final ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("एक","Ek","One",R.drawable.number_one));
-        words.add(new Word("दो","Do","Two",R.drawable.number_two));
-        words.add(new Word("तीन","Teen","Three",R.drawable.number_three));
-        words.add(new Word("चार","Chaar","Four",R.drawable.number_four));
-        words.add(new Word("पंज","Panj","Five",R.drawable.number_five));
-        words.add(new Word("छह","Chhah","Six",R.drawable.number_six));
-        words.add(new Word("सात","Saat","Seven",R.drawable.number_seven));
-        words.add(new Word("आठ","Aath","Eight",R.drawable.number_eight));
-        words.add(new Word("नौ","Nau","Nine",R.drawable.number_nine));
-        words.add(new Word("दस","Das","Ten",R.drawable.number_ten));
+        words.add(new Word(R.string.hindi_number_one_script,R.string.hindi_number_one,
+                R.string.english_number_one,R.drawable.number_one));
+        words.add(new Word(R.string.hindi_number_two_script,R.string.hindi_number_two,
+                R.string.english_number_two,R.drawable.number_two));
+        words.add(new Word(R.string.hindi_number_three_script,R.string.hindi_number_three,
+                R.string.english_number_three,R.drawable.number_three));
+        words.add(new Word(R.string.hindi_number_four_script,R.string.hindi_number_four,
+                R.string.english_number_four,R.drawable.number_four));
+        words.add(new Word(R.string.hindi_number_five_script,R.string.hindi_number_five,
+                R.string.english_number_five,R.drawable.number_five));
+        words.add(new Word(R.string.hindi_number_six_script,R.string.hindi_number_six,
+                R.string.english_number_six,R.drawable.number_six));
+        words.add(new Word(R.string.hindi_number_seven_script,R.string.hindi_number_seven,
+                R.string.english_number_seven,R.drawable.number_seven));
+        words.add(new Word(R.string.hindi_number_eight_script,R.string.hindi_number_eight,
+                R.string.english_number_eight,R.drawable.number_eight));
+        words.add(new Word(R.string.hindi_number_nine_script,R.string.hindi_number_nine,
+                R.string.english_number_nine,R.drawable.number_nine));
+        words.add(new Word(R.string.hindi_number_ten_script,R.string.hindi_number_ten,
+                R.string.english_number_ten,R.drawable.number_ten));
 
         WordAdapter adapter = new WordAdapter(this,words,R.color.category_numbers);
 

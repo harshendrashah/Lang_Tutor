@@ -1,19 +1,17 @@
 package com.shah.langtutor.Gujarati;
 
-import com.shah.langtutor.HIndi.HindiNumbersActivity;
-import com.shah.langtutor.R;
-import com.shah.langtutor.Word;
-import com.shah.langtutor.WordAdapter;
-
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.shah.langtutor.R;
+import com.shah.langtutor.Word;
+import com.shah.langtutor.WordAdapter;
 
 import java.util.ArrayList;
 
@@ -29,14 +27,12 @@ public class GujaratiNumbersActivity extends AppCompatActivity {
                 @Override
                 public void onAudioFocusChange(int focusChange) {
                     if (focusChange == AudioManager.AUDIOFOCUS_LOSS_TRANSIENT ||
-                            focusChange == AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK){
+                            focusChange == AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK) {
                         mMediaPlayer.pause();
                         mMediaPlayer.seekTo(0);
-                    }
-                    else if (focusChange == AudioManager.AUDIOFOCUS_GAIN){
+                    } else if (focusChange == AudioManager.AUDIOFOCUS_GAIN) {
                         mMediaPlayer.start();
-                    }
-                    else if(focusChange == AudioManager.AUDIOFOCUS_LOSS){
+                    } else if (focusChange == AudioManager.AUDIOFOCUS_LOSS) {
                         releaseMediaPlayer();
                     }
                 }
@@ -60,21 +56,31 @@ public class GujaratiNumbersActivity extends AppCompatActivity {
         //Creating an ArrayList of words
         final ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("એક","Ēka","One",R.drawable.number_one,R.raw.gujarati_number_one));
-        words.add(new Word("બે","Bē","Two",R.drawable.number_two,R.raw.gujarati_number_two));
-        words.add(new Word("ત્રણ","Traṇa","Three",R.drawable.number_three,R.raw.gujarati_number_three));
-        words.add(new Word("ચાર","Cāra","Four",R.drawable.number_four,R.raw.gujarati_number_four));
-        words.add(new Word("પાંચ","Pān̄ca","Five",R.drawable.number_five,R.raw.gujarati_number_five));
-        words.add(new Word("છ","Cha","Six",R.drawable.number_six,R.raw.gujarati_number_six));
-        words.add(new Word("સાત","Sāta","Seven",R.drawable.number_seven,R.raw.gujarati_number_seven));
-        words.add(new Word("આઠ","Āṭha","Eight",R.drawable.number_eight,R.raw.gujarati_number_eight));
-        words.add(new Word("નવ","Nava","Nine",R.drawable.number_nine,R.raw.gujarati_number_nine));
-        words.add(new Word("દસ","Dasa","Ten",R.drawable.number_ten,R.raw.gujarati_number_ten));
+        words.add(new Word(R.string.gujarati_number_one_script, R.string.gujarati_number_one,
+                R.string.english_number_one, R.drawable.number_one, R.raw.gujarati_number_one));
+        words.add(new Word(R.string.gujarati_number_two_script, R.string.gujarati_number_two,
+                R.string.english_number_two, R.drawable.number_two, R.raw.gujarati_number_two));
+        words.add(new Word(R.string.gujarati_number_three_script, R.string.gujarati_number_three,
+                R.string.english_number_three, R.drawable.number_three, R.raw.gujarati_number_three));
+        words.add(new Word(R.string.gujarati_number_four_script, R.string.gujarati_number_four,
+                R.string.english_number_four, R.drawable.number_four, R.raw.gujarati_number_four));
+        words.add(new Word(R.string.gujarati_number_five_script, R.string.gujarati_number_five,
+                R.string.english_number_five, R.drawable.number_five, R.raw.gujarati_number_five));
+        words.add(new Word(R.string.gujarati_number_six_script, R.string.gujarati_number_six,
+                R.string.english_number_six, R.drawable.number_six, R.raw.gujarati_number_six));
+        words.add(new Word(R.string.gujarati_number_seven_script, R.string.gujarati_number_seven,
+                R.string.english_number_seven, R.drawable.number_seven, R.raw.gujarati_number_seven));
+        words.add(new Word(R.string.gujarati_number_eight_script, R.string.gujarati_number_eight,
+                R.string.english_number_eight, R.drawable.number_eight, R.raw.gujarati_number_eight));
+        words.add(new Word(R.string.gujarati_number_nine_script, R.string.gujarati_number_nine,
+                R.string.english_number_nine, R.drawable.number_nine, R.raw.gujarati_number_nine));
+        words.add(new Word(R.string.gujarati_number_ten_script, R.string.gujarati_number_ten,
+                R.string.english_number_ten, R.drawable.number_ten, R.raw.gujarati_number_ten));
 
 
-        WordAdapter adapter = new WordAdapter(this,words,R.color.category_numbers);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_numbers);
 
-        ListView listView = (ListView)findViewById(R.id.list);
+        ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -94,7 +100,7 @@ public class GujaratiNumbersActivity extends AppCompatActivity {
                         //Request Permanent Focus
                         AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
 
-                if(result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+                if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
                     //Create and set up {@link MediaPlayer} for the audio resource associated with the current word
                     mMediaPlayer = MediaPlayer.create(GujaratiNumbersActivity.this, word.getAudioResourceId());
                     //Start the audio file
@@ -117,9 +123,9 @@ public class GujaratiNumbersActivity extends AppCompatActivity {
     /**
      * Clean up MediaPlayer by releasing its resources
      */
-    private void releaseMediaPlayer(){
+    private void releaseMediaPlayer() {
 
-        if(mMediaPlayer != null){
+        if (mMediaPlayer != null) {
             mMediaPlayer.release();
             mMediaPlayer = null;
             //Abandon audio Focus when playback complete
