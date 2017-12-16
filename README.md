@@ -1,8 +1,6 @@
 # Lang_Tutor
 
 A simple Language Tutor app. 
-It has different languages and each language has some basic categories like alphabets, numbers, colors, phrases etc.
-It has voice output for each language too.
 
 ## Screenshots
 <table>
@@ -34,3 +32,9 @@ It has voice output for each language too.
     * Go to the Settings > Developers Setting. 
     * **Allow USB debugging**. 
     * **Run** the project from the Android Studio IDE. 
+    
+## Description
+
+It has different languages and each language has some basic categories like alphabets, numbers, colors, phrases etc.
+It has voice output for each language too.
+    
