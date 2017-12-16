@@ -5,16 +5,22 @@ It has different languages and each language has some basic categories like alph
 It has voice output for each language too.
 
 ## Screenshots
-<img src = "screenshots/languagespage.png" height="605">  <img src="screenshots/categorypage.png" height="605">  <img src="screenshots/categorycontent.png" height="605">
+<table>
+    <tr>
+        <td><img src = "screenshots/languagespage.png"></td>
+        <td><img src="screenshots/categorypage.png"></td>
+        <td><img src="screenshots/categorycontent.png"></td>
+    </tr>
+</table>
 
 ## How to launch the project locally 
 1. Download **[Android Studio](https://developer.android.com/studio/index.html)** from the Google Developers site or using this [link](https://developer.android.com/studio/index.html). 
 2. Install the file to your pc. 
 3. Download the required **SDK(Standard Development Kit) Tools** . 
-4. **[Clone the repository](https://github.com/hshah11/Lang_Tutor.git)** from : "https://github.com/hshah11/Lang_Tutor.git" . 
+4. **[Clone the repository](https://github.com/DipanshKhandelwal/Asobimasu.git)** from : "https://github.com/DipanshKhandelwal/Asobimasu.git" . 
     
    `bash 
-    git clone --recursive https://github.com/hshah11/Lang_Tutor.git 
+    git clone --recursive https://github.com/DipanshKhandelwal/Asobimasu.git 
     ` 
 5. Open the project in Android Studio. 
 6. For launching the project you can either : 
