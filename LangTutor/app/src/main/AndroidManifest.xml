@@ -61,7 +61,8 @@
         <activity
             android:name=".Marathi.MarathiPhrasesActivity"
             android:label="@string/phrases" />
-        <activity android:name=".Japanese.JapaneseActivity"></activity>
+        <activity android:name=".Japanese.JapaneseActivity" />
+        <activity android:name=".French.FrenchActivity"></activity>
     </application>
 
 </manifest>

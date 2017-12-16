@@ -1,5 +1,6 @@
 package com.shah.langtutor;
 
+import com.shah.langtutor.French.FrenchActivity;
 import com.shah.langtutor.Gujarati.GujaratiActivity;
 import com.shah.langtutor.HIndi.HindiActivity;
 import com.shah.langtutor.Marathi.MarathiActivity;
@@ -67,6 +68,24 @@ public class MainActivity extends AppCompatActivity {
 
                 //Start the new Activity
                 startActivity(marathiIntent);
+
+            }
+        });
+
+        //Find view that shows Hindi Category
+        TextView french = (TextView) findViewById(R.id.french_text_view);
+
+        //set a clickListener on that view
+        french.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+
+                //Creates new Intent to open {@link HindiActivity}
+                Intent frenchIntent = new Intent(MainActivity.this, FrenchActivity.class);
+
+                //Start the new Activity
+                startActivity(frenchIntent);
 
             }
         });
