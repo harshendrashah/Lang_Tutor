@@ -15,7 +15,7 @@ public class MarathiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_marathi);
 
         //Find View that shows Alphabets Category
-        TextView marathiAlphabets = (TextView) findViewById(R.id.marathi_alphabates);
+        TextView marathiAlphabets = (TextView) findViewById(R.id.marathi_alphabets);
 
         //Set a ClickListener on that View
         marathiAlphabets.setOnClickListener(new View.OnClickListener() {

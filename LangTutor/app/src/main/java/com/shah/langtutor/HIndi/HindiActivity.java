@@ -16,7 +16,7 @@ public class HindiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hindi);
 
         //Find View that shows Alphabets Category
-        TextView hindiAlphabets = (TextView) findViewById(R.id.hindi_alphabates);
+        TextView hindiAlphabets = (TextView) findViewById(R.id.hindi_alphabets);
 
         //Set a ClickListener on that View
         hindiAlphabets.setOnClickListener(new OnClickListener() {

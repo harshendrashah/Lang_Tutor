@@ -15,7 +15,7 @@ public class GujaratiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_gujarati);
 
         //Find View that shows Alphabets Category
-        TextView gujaratiAlphabets = (TextView) findViewById(R.id.gujarati_alphabates);
+        TextView gujaratiAlphabets = (TextView) findViewById(R.id.gujarati_alphabets);
 
         //Set a ClickListener on that View
         gujaratiAlphabets.setOnClickListener(new View.OnClickListener() {
