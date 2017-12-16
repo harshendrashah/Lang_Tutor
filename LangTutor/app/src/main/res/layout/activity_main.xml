@@ -60,7 +60,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/list3">
+            android:background="@color/list4">
 
             <TextView
                 android:id="@+id/french_text_view"
