@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+=======
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+>>>>>>> 46efc97d0e5aa64bda6ec4b2d82ef8690733cfd2
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/tanBackground"
@@ -18,11 +24,19 @@
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
+<<<<<<< HEAD
+        tools:background="@android:color/black"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        app:layout_constraintLeft_toRightOf="@+id/image"
+        android:layout_marginLeft="@dimen/list_item_height">
+=======
         android:layout_marginLeft="@dimen/list_item_height"
         android:orientation="vertical"
         android:paddingLeft="16dp"
         app:layout_constraintLeft_toRightOf="@+id/image"
         tools:background="@android:color/black">
+>>>>>>> 46efc97d0e5aa64bda6ec4b2d82ef8690733cfd2
 
         <TextView
             android:id="@+id/language_text_view"
@@ -44,19 +58,33 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
             tools:text="Zero" />
+<<<<<<< HEAD
+
+=======
+>>>>>>> 46efc97d0e5aa64bda6ec4b2d82ef8690733cfd2
 
     </LinearLayout>
 
     <TextView
         android:id="@+id/language_script_text_view"
         android:layout_width="wrap_content"
+<<<<<<< HEAD
+        android:layout_height="@dimen/list_item_height"
+=======
         android:layout_height="50dp"
         android:layout_marginRight="16dp"
         android:gravity="bottom"
+>>>>>>> 46efc97d0e5aa64bda6ec4b2d82ef8690733cfd2
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         app:layout_constraintRight_toRightOf="parent"
+<<<<<<< HEAD
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        tools:text="Shoonya" />
+
+=======
         tools:text="Shoonya" />
 
     <ImageView
@@ -68,4 +96,5 @@
         app:layout_constraintTop_toBottomOf="@+id/language_script_text_view" />
 
 
+>>>>>>> 46efc97d0e5aa64bda6ec4b2d82ef8690733cfd2
 </android.support.constraint.ConstraintLayout>

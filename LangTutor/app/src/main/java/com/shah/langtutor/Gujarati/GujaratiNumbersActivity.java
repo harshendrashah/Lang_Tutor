@@ -60,6 +60,18 @@ public class GujaratiNumbersActivity extends AppCompatActivity {
         //Creating an ArrayList of words
         final ArrayList<Word> words = new ArrayList<Word>();
 
+<<<<<<< HEAD
+        words.add(new Word("એક","Ēka","One",R.drawable.number_one));
+        words.add(new Word("બે","Bē","Two",R.drawable.number_two));
+        words.add(new Word("ત્રણ","Traṇa","Three",R.drawable.number_three));
+        words.add(new Word("ચાર","Cāra","Four",R.drawable.number_four));
+        words.add(new Word("પાંચ","Pān̄ca","Five",R.drawable.number_five));
+        words.add(new Word("છ","Cha","Six",R.drawable.number_six));
+        words.add(new Word("સાત","Sāta","Seven",R.drawable.number_seven));
+        words.add(new Word("આઠ","Āṭha","Eight",R.drawable.number_eight));
+        words.add(new Word("નવ","Nava","Nine",R.drawable.number_nine));
+        words.add(new Word("દસ","Dasa","Ten",R.drawable.number_ten));
+=======
         words.add(new Word("એક","Ēka","One",R.drawable.number_one,R.raw.gujarati_number_one));
         words.add(new Word("બે","Bē","Two",R.drawable.number_two,R.raw.gujarati_number_two));
         words.add(new Word("ત્રણ","Traṇa","Three",R.drawable.number_three,R.raw.gujarati_number_three));
@@ -70,6 +82,7 @@ public class GujaratiNumbersActivity extends AppCompatActivity {
         words.add(new Word("આઠ","Āṭha","Eight",R.drawable.number_eight,R.raw.gujarati_number_eight));
         words.add(new Word("નવ","Nava","Nine",R.drawable.number_nine,R.raw.gujarati_number_nine));
         words.add(new Word("દસ","Dasa","Ten",R.drawable.number_ten,R.raw.gujarati_number_ten));
+>>>>>>> 46efc97d0e5aa64bda6ec4b2d82ef8690733cfd2
 
 
         WordAdapter adapter = new WordAdapter(this,words,R.color.category_numbers);

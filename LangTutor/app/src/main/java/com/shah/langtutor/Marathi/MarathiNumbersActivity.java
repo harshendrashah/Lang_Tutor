@@ -58,7 +58,11 @@ public class MarathiNumbersActivity extends AppCompatActivity {
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
         //Creating an ArrayList of words
+<<<<<<< HEAD
+        ArrayList<Word> words = new ArrayList<Word>();
+=======
         final ArrayList<Word> words = new ArrayList<Word>();
+>>>>>>> 46efc97d0e5aa64bda6ec4b2d82ef8690733cfd2
 
         words.add(new Word("एक","Ēka","One",R.drawable.number_one));
         words.add(new Word("दोन","Dōna","Two",R.drawable.number_two));
