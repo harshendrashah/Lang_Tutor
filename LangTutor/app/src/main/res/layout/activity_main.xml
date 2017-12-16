@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shah.langtutor.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tanBackground"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/list1">
+
+            <TextView
+                android:id="@+id/hindi_text_view"
+                style="@style/HomePageCatagoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/hindi" />
+        </FrameLayout>
+
+        <View style="@style/ViewStyle" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/list2">
+
+            <TextView
+                android:id="@+id/gujarati_text_view"
+                style="@style/HomePageCatagoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/gujarati" />
+
+        </FrameLayout>
+
+        <View style="@style/ViewStyle" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/list3">
+
+            <TextView
+                android:id="@+id/marathi_text_view"
+                style="@style/HomePageCatagoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/marathi" />
+
+        </FrameLayout>
+
+        <View style="@style/ViewStyle" />
+        
+
+    </LinearLayout>
+
+</ScrollView>
