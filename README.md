@@ -5,7 +5,7 @@ It has different languages and each language has some basic categories like alph
 It has voice output for each language too.
 
 ## Screenshots
-<img src = "screenshots/languagepage.png" height="605">  <img src="screenshots/categorypage.png" height="605">  <img src="screenshots/categorycontent.png" height="605">
+<img src = "screenshots/languagespage.png" height="605">  <img src="screenshots/categorypage.png" height="605">  <img src="screenshots/categorycontent.png" height="605">
 
 ## How to launch the project locally 
 1. Download **[Android Studio](https://developer.android.com/studio/index.html)** from the Google Developers site or using this [link](https://developer.android.com/studio/index.html). 
