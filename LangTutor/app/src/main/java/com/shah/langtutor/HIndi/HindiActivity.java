@@ -4,6 +4,7 @@ import com.shah.langtutor.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
@@ -78,4 +79,5 @@ public class HindiActivity extends AppCompatActivity {
         });
 
     }
+
 }

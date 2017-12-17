@@ -26,6 +26,27 @@
     <string name="english_number_nine">Nine</string>
     <string name="english_number_ten">Ten</string>
 
+    <!--English Colors-->
+    <string name="english_color_red">Red</string>
+    <string name="english_color_green">Green</string>
+    <string name="english_color_brown">Brown</string>
+    <string name="english_color_gray">Gray</string>
+    <string name="english_color_black">Black</string>
+    <string name="english_color_white">White</string>
+    <string name="english_color_yellow">Yellow</string>
+    
+    <!--English Phrases-->
+    <string name="english_phrases_one">Where are you going?</string>
+    <string name="english_phrases_two">What is your name?</string>
+    <string name="english_phrases_three">My name is ...</string>
+    <string name="english_phrases_four">How are you feeling?</string>
+    <string name="english_phrases_five">I am feeling good.</string>
+    <string name="english_phrases_six">Are you coming?</string>
+    <string name="english_phrases_seven">Yes, I\'m coming.</string>
+    <string name="english_phrases_eight">I am coming.</string>
+    <string name="english_phrases_nine">Let\'s go.</string>
+    <string name="english_phrases_ten">Come here.</string>
+
     <!--Hindi Numbers-->
     <string name="hindi_number_one">Ek</string>
     <string name="hindi_number_two">Do</string>
@@ -49,6 +70,61 @@
     <string name="gujarati_number_eight">Āṭha</string>
     <string name="gujarati_number_nine">Nava</string>
     <string name="gujarati_number_ten">Dasa</string>
+
+    <!--Gujarati Numbers Script-->
+    <string name="gujarati_number_one_script">એક</string>
+    <string name="gujarati_number_two_script">બે</string>
+    <string name="gujarati_number_three_script">ત્રણ</string>
+    <string name="gujarati_number_four_script">ચાર</string>
+    <string name="gujarati_number_five_script">પાંચ</string>
+    <string name="gujarati_number_six_script">છ</string>
+    <string name="gujarati_number_seven_script">સાત</string>
+    <string name="gujarati_number_eight_script">આઠ</string>
+    <string name="gujarati_number_nine_script">નવ</string>
+    <string name="gujarati_number_ten_script">દસ</string>
+
+    <!--Gujarati Colors-->
+    <string name="gujarati_color_red">Lāla</string>
+    <string name="gujarati_color_green">Līlō</string>
+    <string name="gujarati_color_brown">Bhūrā</string>
+    <string name="gujarati_color_gray">Bhūkharō</string>
+    <string name="gujarati_color_black">Kāḷō</string>
+    <string name="gujarati_color_white">Saphēda</string>
+    <string name="gujarati_color_yellow">Pīḷō</string>
+
+    <!--Gujarati Colors Script-->
+    <string name="gujarati_color_red_script">લાલ</string>
+    <string name="gujarati_color_green_script">લીલો</string>
+    <string name="gujarati_color_brown_script">ભૂરા</string>
+    <string name="gujarati_color_gray_script">ભૂખરો</string>
+    <string name="gujarati_color_black_script">કાળો</string>
+    <string name="gujarati_color_white_script">સફેદ</string>
+    <string name="gujarati_color_yellow_script">પીળો</string>
+
+
+    <!--Gujarati Phrases-->
+    <string name="gujarati_phrases_one">Tamē kyāṁ jāva chō?</string>
+    <string name="gujarati_phrases_two">Tamāruṁ nāma śuṁ chē?</string>
+    <string name="gujarati_phrases_three">Māruṁ nāma...</string>
+    <string name="gujarati_phrases_four">Tamanē kēvuṁ lāgē chē?</string>
+    <string name="gujarati_phrases_five">Manē sāru lāgī rahyu chē.</string>
+    <string name="gujarati_phrases_six">Śuṁ tamē āvō chō?</string>
+    <string name="gujarati_phrases_seven">Hā, huṁ āvuṁ chuṁ.</string>
+    <string name="gujarati_phrases_eight">Huṁ āvuṁ chu.</string>
+    <string name="gujarati_phrases_nine">Cālō ja\'iē</string>
+    <string name="gujarati_phrases_ten">Ahī āvō.</string>
+
+    <!--Gujarati Phrases Script-->
+    <string name="gujarati_phrases_one_script">તમે ક્યાં જાવ છો?</string>
+    <string name="gujarati_phrases_two_script">તમારું નામ શું છે?</string>
+    <string name="gujarati_phrases_three_script">મારું નામ ...</string>
+    <string name="gujarati_phrases_four_script">તમને કેવું લાગે છે?</string>
+    <string name="gujarati_phrases_five_script">મને સારુ લાગી રહ્યુ છે.</string>
+    <string name="gujarati_phrases_six_script">શું તમે આવો છો?</string>
+    <string name="gujarati_phrases_seven_script">હા, હું આવું છું.</string>
+    <string name="gujarati_phrases_eight_script">હું આવું છુ.</string>
+    <string name="gujarati_phrases_nine_script">ચાલો જઇએ.</string>
+    <string name="gujarati_phrases_ten_script">અહી આવો.</string>
 
     <!--Marathi Numbers-->
     <string name="marathi_number_one">Ēka</string>
@@ -74,17 +150,6 @@
     <string name="hindi_number_nine_script">नौ</string>
     <string name="hindi_number_ten_script">दस</string>
 
-    <!--Gujarati Numbers Script-->
-    <string name="gujarati_number_one_script">એક</string>
-    <string name="gujarati_number_two_script">બે</string>
-    <string name="gujarati_number_three_script">ત્રણ</string>
-    <string name="gujarati_number_four_script">ચાર</string>
-    <string name="gujarati_number_five_script">પાંચ</string>
-    <string name="gujarati_number_six_script">છ</string>
-    <string name="gujarati_number_seven_script">સાત</string>
-    <string name="gujarati_number_eight_script">આઠ</string>
-    <string name="gujarati_number_nine_script">નવ</string>
-    <string name="gujarati_number_ten_script">દસ</string>
 
     <!--Marathi Numbers Script-->
     <string name="marathi_number_one_script">एक</string>
