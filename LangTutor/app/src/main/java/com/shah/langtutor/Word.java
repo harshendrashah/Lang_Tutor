@@ -24,6 +24,9 @@ public class Word {
     //Specific Audio Resource for the word
     private int mAudioResourceId;
 
+    //Checks the activity is phrases activity or not
+    private boolean mHasPhrases;
+
     //Constructor for Phrases Activity
     public Word(int languageScript, int languageTranslation,int defaultTranslation, int audioResourceId){
         mLanguageScript = languageScript;
@@ -39,6 +42,15 @@ public class Word {
         mDefaultTranslation = defaultTranslation;
         mImageResourceId = imageResourceId;
         mAudioResourceId = audioResourceId;
+    }
+
+    //Constructor or phrases activity
+    public Word(int languageScript, int languageTranslation,int defaultTranslation, int audioResourceId,boolean HasPhrases){
+        mLanguageScript = languageScript;
+        mLanguageTranslation = languageTranslation;
+        mDefaultTranslation = defaultTranslation;
+        mAudioResourceId = audioResourceId;
+        mHasPhrases = HasPhrases;
     }
 
     /**
@@ -88,6 +100,14 @@ public class Word {
      */
     public int getAudioResourceId(){
         return mAudioResourceId;
+    }
+
+    /**
+     * returns whether Activity is phrases or not
+     * @return
+     */
+    public boolean getHasPhrases(){
+        return mHasPhrases;
     }
 
 }
