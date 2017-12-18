@@ -1,75 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.shah.langtutor.French.FrenchActivity">
 
-    <LinearLayout
+    <android.support.v4.view.ViewPager
+        android:id="@+id/french_viewpager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/tanBackground"
-        android:orientation="vertical">
+        android:layout_height="match_parent"/>
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_alphabets">
 
-            <TextView
-                android:id="@+id/french_alphabets"
-                style="@style/IndividualCategoryStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/alphabets" />
-
-        </FrameLayout>
-
-        <View style="@style/ViewStyle" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_numbers">
-
-            <TextView
-                android:id="@+id/french_numbers"
-                style="@style/IndividualCategoryStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/numbers" />
-
-        </FrameLayout>
-
-        <View style="@style/ViewStyle" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_colors">
-
-            <TextView
-                android:id="@+id/french_colors"
-                style="@style/IndividualCategoryStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/colors" />
-
-        </FrameLayout>
-
-        <View style="@style/ViewStyle" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_phrases">
-
-            <TextView
-                android:id="@+id/french_phrases"
-                style="@style/IndividualCategoryStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/phrases" />
-
-        </FrameLayout>
-
-        <View style="@style/ViewStyle" />
-
-    </LinearLayout>
-</ScrollView>
+</LinearLayout>

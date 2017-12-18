@@ -34,7 +34,7 @@
     <string name="english_color_black">Black</string>
     <string name="english_color_white">White</string>
     <string name="english_color_yellow">Yellow</string>
-    
+
     <!--English Phrases-->
     <string name="english_phrases_one">Where are you going?</string>
     <string name="english_phrases_two">What is your name?</string>
@@ -162,5 +162,8 @@
     <string name="marathi_number_eight_script">आठ</string>
     <string name="marathi_number_nine_script">नऊ</string>
     <string name="marathi_number_ten_script">दहा</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

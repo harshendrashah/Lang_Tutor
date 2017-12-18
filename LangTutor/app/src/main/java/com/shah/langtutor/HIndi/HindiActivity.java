@@ -1,8 +1,10 @@
 package com.shah.langtutor.HIndi;
 
+import com.shah.langtutor.Gujarati.GujaratiCategoryAdapter;
 import com.shah.langtutor.R;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,68 +18,14 @@ public class HindiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hindi);
 
-        //Find View that shows Alphabets Category
-        TextView hindiAlphabets = (TextView) findViewById(R.id.hindi_alphabets);
+        // Find the view pager that will allow the user to swipe between fragments
+        ViewPager viewPager = (ViewPager) findViewById(R.id.hindi_viewpager);
 
-        //Set a ClickListener on that View
-        hindiAlphabets.setOnClickListener(new OnClickListener() {
+        // Create an adapter that knows which fragment should be shown on each page
+        HindiCategoryAdapter adapter = new HindiCategoryAdapter(getSupportFragmentManager());
 
-            @Override
-            public void onClick(View view) {
-                //Creates new Intent to open {@link HindiAlphabetsActivity}
-                Intent hAlphabets = new Intent(HindiActivity.this, HindiAlphabetsActivity.class);
-
-                //Start the new Activity;
-                startActivity(hAlphabets);
-            }
-        });
-        //Find View that shows Numbers Category
-        TextView hindiNumbers = (TextView) findViewById(R.id.hindi_numbers);
-
-        //Set a ClickListener on that View
-        hindiNumbers.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //Creates new Intent to open {@link HindiNumbersActivity}
-                Intent hNumbers = new Intent(HindiActivity.this, HindiNumbersActivity.class);
-
-                //Start the new Activity;
-                startActivity(hNumbers);
-            }
-        });
-
-        //Find View that shows Colors Category
-        TextView hindiColors = (TextView) findViewById(R.id.hindi_colors);
-
-        //Set a ClickListener on that View
-        hindiColors.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                //Creates new Intent to open {@link HindiColorsActivity}
-                Intent hColors = new Intent(HindiActivity.this, HindiColorsActivity.class);
-
-                //Start the new Activity;
-                startActivity(hColors);
-            }
-        });
-
-        //Find View that shows Phrases Category
-        TextView hindiPhrases = (TextView) findViewById(R.id.hindi_phrases);
-
-        //Set a ClickListener on that View
-        hindiPhrases.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                //Creates new Intent to open {@link HindiPhrasesActivity}
-                Intent hPhrases = new Intent(HindiActivity.this, HindiPhrasesActivity.class);
-
-                //Start the new Activity;
-                startActivity(hPhrases);
-            }
-        });
-
+        // Set the adapter onto the view pager
+        viewPager.setAdapter(adapter);
     }
 
 }
