@@ -6,8 +6,8 @@ A simple Language Tutor app.
 <table>
     <tr>
         <td><img src = "screenshots/languagespage.png"></td>
-        <td><img src="screenshots/categorypage.png"></td>
-        <td><img src="screenshots/categorycontent.png"></td>
+        <td><img src="screenshots/gujaratinumbers.png"></td>
+        <td><img src="screenshots/gujaratiphrases.png"></td>
     </tr>
 </table>
 
