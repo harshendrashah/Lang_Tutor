@@ -126,18 +126,6 @@
     <string name="gujarati_phrases_nine_script">ચાલો જઇએ.</string>
     <string name="gujarati_phrases_ten_script">અહી આવો.</string>
 
-    <!--Marathi Numbers-->
-    <string name="marathi_number_one">Ēka</string>
-    <string name="marathi_number_two">Dōna</string>
-    <string name="marathi_number_three">Tīna</string>
-    <string name="marathi_number_four">Cāra</string>
-    <string name="marathi_number_five">Pāca</string>
-    <string name="marathi_number_six">Sahā</string>
-    <string name="marathi_number_seven">Sāta</string>
-    <string name="marathi_number_eight">Āṭha</string>
-    <string name="marathi_number_nine">Naū</string>
-    <string name="marathi_number_ten">Dahā</string>
-
     <!--Hindi Number Script-->
     <string name="hindi_number_one_script">एक</string>
     <string name="hindi_number_two_script">दो</string>
@@ -149,6 +137,18 @@
     <string name="hindi_number_eight_script">आठ</string>
     <string name="hindi_number_nine_script">नौ</string>
     <string name="hindi_number_ten_script">दस</string>
+
+    <!--Marathi Numbers-->
+    <string name="marathi_number_one">Ēka</string>
+    <string name="marathi_number_two">Dōna</string>
+    <string name="marathi_number_three">Tīna</string>
+    <string name="marathi_number_four">Cāra</string>
+    <string name="marathi_number_five">Pāca</string>
+    <string name="marathi_number_six">Sahā</string>
+    <string name="marathi_number_seven">Sāta</string>
+    <string name="marathi_number_eight">Āṭha</string>
+    <string name="marathi_number_nine">Naū</string>
+    <string name="marathi_number_ten">Dahā</string>
 
 
     <!--Marathi Numbers Script-->
@@ -162,6 +162,48 @@
     <string name="marathi_number_eight_script">आठ</string>
     <string name="marathi_number_nine_script">नऊ</string>
     <string name="marathi_number_ten_script">दहा</string>
+
+    <!--Marathi Colors-->
+    <string name="marathi_color_red">Lāla</string>
+    <string name="marathi_color_green">Hiravā</string>
+    <string name="marathi_color_brown">Tapakirī</string>
+    <string name="marathi_color_gray">karaḍā</string>
+    <string name="marathi_color_black">Kāḷā</string>
+    <string name="marathi_color_white">Pāṇḍharā</string>
+    <string name="marathi_color_yellow">Pivaḷā</string>
+
+    <!--marathi Colors Script-->
+    <string name="marathi_color_red_script">लाल</string>
+    <string name="marathi_color_green_script">हिरवा</string>
+    <string name="marathi_color_brown_script">तपकिरी</string>
+    <string name="marathi_color_gray_script">करडा</string>
+    <string name="marathi_color_black_script">काळा</string>
+    <string name="marathi_color_white_script">पांढरा</string>
+    <string name="marathi_color_yellow_script">पिवळा</string>
+
+    <!--Marathi Phrases-->
+    <string name="marathi_phrases_one">Āpaṇa kōṭhē jāta āhāta?</string>
+    <string name="marathi_phrases_two">Tujhaṁ nāva kāya āhē?</string>
+    <string name="marathi_phrases_three">Mājhaṁ nāvaṁ...</string>
+    <string name="marathi_phrases_four">Tulā kasē vāṭata āhē?</string>
+    <string name="marathi_phrases_five">Malā cāṅgalē vāṭata āhē</string>
+    <string name="marathi_phrases_six">Tū yēta āhēsa kā?</string>
+    <string name="marathi_phrases_seven">Hōya, mī yēta āhē</string>
+    <string name="marathi_phrases_eight">Mī yēta āhē</string>
+    <string name="marathi_phrases_nine">Cala jā'ūyā.</string>
+    <string name="marathi_phrases_ten">Ikaḍē yē.</string>
+
+    <!--Marathi Phrases Script-->
+    <string name="marathi_phrases_one_script">आपण कोठे जात आहात?</string>
+    <string name="marathi_phrases_two_script">तुझं नाव काय आहे?</string>
+    <string name="marathi_phrases_three_script">माझं नावं...</string>
+    <string name="marathi_phrases_four_script">तुला कसे वाटत आहे?</string>
+    <string name="marathi_phrases_five_script">मला चांगले वाटत आहे</string>
+    <string name="marathi_phrases_six_script">तू येत आहेस का?</string>
+    <string name="marathi_phrases_seven_script">होय, मी येत आहे</string>
+    <string name="marathi_phrases_eight_script">मी येत आहे.</string>
+    <string name="marathi_phrases_nine_script">चल जाऊया.</string>
+    <string name="marathi_phrases_ten_script">इकडे ये.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

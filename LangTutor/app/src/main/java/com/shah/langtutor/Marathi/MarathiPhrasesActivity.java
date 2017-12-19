@@ -9,6 +9,8 @@ public class MarathiPhrasesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.words_list);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.container, new MarathiPhrasesFragment())
+                .commit();
     }
 }
