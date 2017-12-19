@@ -74,25 +74,25 @@ public class MarathiNumbersFragment extends Fragment {
         final ArrayList<Word> words = new ArrayList<Word>();
 
         words.add(new Word(R.string.marathi_number_one_script,R.string.marathi_number_one,
-                R.string.english_number_one,R.drawable.number_one));
+                R.string.english_number_one,R.drawable.number_one,R.raw.marathi_numbers_one));
         words.add(new Word(R.string.marathi_number_two_script,R.string.marathi_number_two,
-                R.string.english_number_two,R.drawable.number_two));
+                R.string.english_number_two,R.drawable.number_two,R.raw.marathi_numbers_two));
         words.add(new Word(R.string.marathi_number_three_script,R.string.marathi_number_three,
-                R.string.english_number_three,R.drawable.number_three));
+                R.string.english_number_three,R.drawable.number_three,R.raw.marathi_numbers_three));
         words.add(new Word(R.string.marathi_number_four_script,R.string.marathi_number_four,
-                R.string.english_number_four,R.drawable.number_four));
+                R.string.english_number_four,R.drawable.number_four,R.raw.marathi_numbers_four));
         words.add(new Word(R.string.marathi_number_five_script,R.string.marathi_number_five,
-                R.string.english_number_five,R.drawable.number_five));
+                R.string.english_number_five,R.drawable.number_five,R.raw.marathi_numbers_five));
         words.add(new Word(R.string.marathi_number_six_script,R.string.marathi_number_six,
-                R.string.english_number_six,R.drawable.number_six));
+                R.string.english_number_six,R.drawable.number_six,R.raw.marathi_numbers_six));
         words.add(new Word(R.string.marathi_number_seven_script,R.string.marathi_number_seven,
-                R.string.english_number_seven,R.drawable.number_seven));
+                R.string.english_number_seven,R.drawable.number_seven,R.raw.marathi_numbers_seven));
         words.add(new Word(R.string.marathi_number_eight_script,R.string.marathi_number_eight,
-                R.string.english_number_eight,R.drawable.number_eight));
+                R.string.english_number_eight,R.drawable.number_eight,R.raw.marathi_numbers_eight));
         words.add(new Word(R.string.marathi_number_nine_script,R.string.marathi_number_nine,
-                R.string.english_number_nine,R.drawable.number_nine));
+                R.string.english_number_nine,R.drawable.number_nine,R.raw.marathi_numbers_nine));
         words.add(new Word(R.string.marathi_number_two_script,R.string.marathi_number_ten,
-                R.string.english_number_ten,R.drawable.number_ten));
+                R.string.english_number_ten,R.drawable.number_ten,R.raw.marathi_numbers_ten));
 
         WordAdapter adapter = new WordAdapter(getActivity(),words,R.color.category_numbers);
 
